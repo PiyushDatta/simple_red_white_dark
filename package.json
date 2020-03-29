@@ -1,9 +1,9 @@
 {
   "name": "simple-red-white-dark",
-  "displayName": "Simple Red White (dark) Theme",
+  "displayName": "Simple Red White (dark-mode) Theme",
   "description": "A simple red and white colored vscode theme (dark-mode)",
   "publisher": "Piyush",
-  "repository": "https://github.com/schmittyjd/monokai-seti",
+  "repository": "https://github.com/PiyushDatta/simple_red_white_dark",
   "version": "0.1.2",
   "license": "MIT",
   "engines": {

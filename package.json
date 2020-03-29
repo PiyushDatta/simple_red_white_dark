@@ -4,7 +4,7 @@
   "description": "A simple red and white colored vscode theme (dark-mode)",
   "publisher": "Piyush",
   "repository": "https://github.com/PiyushDatta/simple_red_white_dark",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "icon": "images/red_and_white_vscode_theme_icon_2.png",
   "license": "MIT",
   "engines": {

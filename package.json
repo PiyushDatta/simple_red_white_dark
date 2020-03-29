@@ -4,7 +4,7 @@
   "description": "A simple red and white colored vscode theme (dark-mode)",
   "publisher": "Piyush",
   "repository": "https://github.com/schmittyjd/monokai-seti",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "license": "MIT",
   "engines": {
     "vscode": "^1.43.0"

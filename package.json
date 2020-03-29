@@ -1,21 +1,24 @@
 {
-    "name": "simple-red-white-dark",
-    "displayName": "Simple Red White (dark) Theme",
-    "description": "A simple red and white colored vscode theme (dark-mode)",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.43.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Simple Red White (dark) Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Simple Red White (dark)-color-theme.json"
-            }
-        ]
-    }
+  "name": "simple-red-white-dark",
+  "displayName": "Simple Red White (dark) Theme",
+  "description": "A simple red and white colored vscode theme (dark-mode)",
+  "publisher": "Piyush",
+  "repository": "https://github.com/schmittyjd/monokai-seti",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Simple Red White (dark) Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simple Red White (dark)-color-theme.json"
+      }
+    ]
+  }
 }

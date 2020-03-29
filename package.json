@@ -1,0 +1,21 @@
+{
+    "name": "simple-red-white-dark",
+    "displayName": "Simple Red White (dark)",
+    "description": "A simple red and white colored vscode theme (dark-mode)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Simple Red White (dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Simple Red White (dark)-color-theme.json"
+            }
+        ]
+    }
+}

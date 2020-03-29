@@ -21,14 +21,24 @@
     "tab.border": "#1d242c",
     "tab.unfocusedActiveForeground": "#d1d4d3AA",
     "tab.unfocusedInactiveForeground": "#777777",
-    "tab.unfocusedActiveBorder": "#777777"
+    "tab.unfocusedActiveBorder": "#777777",
+    // highlight of current line
+    "editor.lineHighlightBackground": "#15191b",
+    // selecting words
+    "editor.selectionBackground": "#404040",
+    "editor.selectionHighlightBackground": "#404040",
+    "editor.inactiveSelectionBackground": "#404040",
+    // side bar and command pallette selection
+    "list.inactiveSelectionBackground": "#15191b",
+    "list.activeSelectionBackground": "#404040",
+    "list.focusBackground": "#404040"
   },
   "tokenColors": [
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
+        // "fontStyle": "italic",
         "foreground": "#74715E"
       }
     },

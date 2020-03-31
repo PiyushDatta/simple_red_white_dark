@@ -258,7 +258,7 @@
       "name": "Number, Function Argument, Tag Attribute, Embedded",
       "scope": ["variable.parameter", "keyword.other.unit", "keyword.other"],
       "settings": {
-        "foreground": "#F92672"
+        "foreground": "#FD971F"
       }
     },
     {

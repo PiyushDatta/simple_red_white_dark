@@ -1,0 +1,19 @@
+video for reference:
+https://www.youtube.com/watch?v=3Ju74i1MyBg
+
+Changing theme:
+    1. Under themes, edit the theme's json file to whatever colors you want.
+    2. On vscode, go to debug (most likely you are on explorer), 
+       make sure launch.json is configured correctly
+    3. Start debugging (press the green run button)
+    4. Now you can see live what changes you've made
+    5. To check the token (what the keyword is marked as by vscode theme),
+       go to command palette and type 'Developer: Inspect editor tokens and scopes'
+
+Committing any changes to this repo:
+    1. Commit changes to github
+    2. Update version number in package.json
+    3. Write down changes in CHANGELOG.md (we need prev commit link for this)
+    4. Create a vsix file with command `vsce package`
+    5. Publish changes to VS Code MarketPlace using `vsce publish`
+    6. Commit changes again

@@ -92,16 +92,6 @@
       }
     },
     {
-      "name": "Storage Type C++ Red",
-      "scope": [
-        "storage.modifier.pointer.cpp",
-        "storage.modifier.reference.cpp"
-      ],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
       "name": "Punctuation",
       "scope": [
         "punctuation",
@@ -117,49 +107,14 @@
       }
     },
     {
-      "name": "Punctuation C++ Red",
-      "scope": [
-        "punctuation.separator.scope-resolution.function.definition.cpp",
-        "punctuation.separator.scope-resolution.destructor.cpp",
-        "punctuation.separator.scope-resolution.constructor.cpp",
-        "punctuation.definition.directive.cpp",
-        "punctuation.terminator.statement.cpp",
-        "punctuation.separator.scope-resolution.cpp"
-        // brackets
-        // "punctuation.section.parens.begin.bracket.round",
-        // "punctuation.section.parens.end.bracket.round",
-        // "punctuation.section.arguments.begin.bracket.round.function.call",
-        // "punctuation.section.arguments.end.bracket.round.function.call",
-        // "punctuation.section.parameters.begin.bracket.round.special.constructor",
-        // "punctuation.section.parameters.end.bracket.round.special.constructor",
-        // "punctuation.section.parameters.begin.bracket.round.special.member.destructor",
-        // "punctuation.section.parameters.end.bracket.round.special.member.destructor",
-        // "punctuation.section.parameters.begin.bracket.round",
-        // "punctuation.section.parameters.end.bracket.round",
-      ],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "Punctuation C++ White",
-      "scope": [
-        // the <something> when you do #include
-        "string.quoted.other.lt-gt.include.cpp",
-        "meta.preprocessor.pragma.cpp"
-      ],
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
       "name": "Operator, Misc",
       "scope": [
         "keyword.control",
         "constant.other.color",
         "meta.tag",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "keyword.other"
       ],
       "settings": {
         "foreground": "#F92672"
@@ -210,21 +165,6 @@
       ],
       "settings": {
         "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "Unknown",
-      "scope": [
-        "source.python",
-        "source.cpp",
-        "source.java",
-        "source.c",
-        "source.html",
-        "source.css",
-        "source.js"
-      ],
-      "settings": {
-        "foreground": "#FFFFFF"
       }
     },
     {
@@ -303,27 +243,6 @@
       }
     },
     {
-      "name": "Component Support",
-      "scope": ["support.class.component"],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "CSS Class and Support",
-      "scope": [
-        "source.css support.type.property-name",
-        "source.sass support.type.property-name",
-        "source.scss support.type.property-name",
-        "source.less support.type.property-name",
-        "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name"
-      ],
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
       "name": "Sub-methods",
       "scope": [
         "entity.name.module.js",
@@ -343,53 +262,10 @@
       }
     },
     {
-      "name": "entity.name.method.js",
-      "scope": ["entity.name.method.js"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "meta.method.js",
-      "scope": [
-        "meta.class-method.js entity.name.function.js",
-        "variable.function.constructor"
-      ],
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "HTML Attributes",
-      "scope": [
-        "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
-      "name": "CSS Classes",
-      "scope": ["entity.other.attribute-name.class"],
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "CSS ID's",
-      "scope": ["source.sass keyword.control"],
-      "settings": {
-        "foreground": "#F92672"
       }
     },
     {
@@ -445,16 +321,9 @@
         "foreground": "#FFFFFF"
       }
     },
-    {
-      "name": "ES7 Bind Operator",
-      "scope": [
-        "source.js constant.other.object.key.js string.unquoted.label.js"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#F92672"
-      }
-    },
+    /****************************************************************
+      JSON SPECIFIC
+    ****************************************************************/
     {
       "name": "JSON Key - Level 0",
       "scope": [
@@ -536,6 +405,9 @@
         "foreground": "#FFFFFF"
       }
     },
+    /****************************************************************
+      MARKUP AND MARKDOWN SPECIFIC
+    ****************************************************************/
     {
       "name": "Markdown - Plain",
       "scope": [
@@ -699,6 +571,222 @@
       "scope": ["markup.table"],
       "settings": {
         "foreground": "#FFFFFF"
+      }
+    },
+    /****************************************************************
+      BASE LANGUAGES
+    ****************************************************************/
+    {
+      "name": "Unknown",
+      "scope": [
+        "source.python",
+        "source.cpp",
+        "source.java",
+        "source.c",
+        "source.html",
+        "source.css",
+        "source.js",
+        "source.rust",
+        "source.go"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    /****************************************************************
+    *****************************************************************
+      LANGUAGE SPECIFIC
+    *****************************************************************
+    ****************************************************************/
+
+    /****************************************************************
+      CSS
+    ****************************************************************/
+    {
+      "name": "CSS Class and Support",
+      "scope": [
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Keyword Other CSS White",
+      "scope": ["keyword.other.unit.px.css"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "CSS Classes",
+      "scope": ["entity.other.attribute-name.class"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "CSS ID's",
+      "scope": ["source.sass keyword.control"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Component Support",
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    /****************************************************************
+      HTML
+    ****************************************************************/
+
+    {
+      "name": "HTML Attributes",
+      "scope": [
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "HTML Text White",
+      "scope": ["text.html.derivative"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    /****************************************************************
+      JAVASCRIPT AND ES7
+    ****************************************************************/
+
+    {
+      "name": "entity.name.method.js",
+      "scope": ["entity.name.method.js"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "meta.method.js",
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "ES7 Bind Operator",
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#F92672"
+      }
+    },
+    /****************************************************************
+      C
+    ****************************************************************/
+    {
+      "name": "Imports C",
+      "scope": [
+        // the <something> when you do #include
+        "string.quoted.other.lt-gt.include.c",
+        "punctuation.definition.string.begin.c",
+        "punctuation.definition.string.end.c"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    /****************************************************************
+      C++
+    ****************************************************************/
+    {
+      "name": "Storage Type C++ Red",
+      "scope": [
+        "storage.modifier.pointer.cpp",
+        "storage.modifier.reference.cpp"
+      ],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Punctuation C++ Red",
+      "scope": [
+        "punctuation.separator.scope-resolution.function.definition.cpp",
+        "punctuation.separator.scope-resolution.destructor.cpp",
+        "punctuation.separator.scope-resolution.constructor.cpp",
+        "punctuation.definition.directive.cpp",
+        "punctuation.terminator.statement.cpp",
+        "punctuation.separator.scope-resolution.cpp"
+        // brackets
+        // "punctuation.section.parens.begin.bracket.round",
+        // "punctuation.section.parens.end.bracket.round",
+        // "punctuation.section.arguments.begin.bracket.round.function.call",
+        // "punctuation.section.arguments.end.bracket.round.function.call",
+        // "punctuation.section.parameters.begin.bracket.round.special.constructor",
+        // "punctuation.section.parameters.end.bracket.round.special.constructor",
+        // "punctuation.section.parameters.begin.bracket.round.special.member.destructor",
+        // "punctuation.section.parameters.end.bracket.round.special.member.destructor",
+        // "punctuation.section.parameters.begin.bracket.round",
+        // "punctuation.section.parameters.end.bracket.round",
+      ],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Punctuation C++ White",
+      "scope": [
+        // the <something> when you do #include
+        "string.quoted.other.lt-gt.include.cpp",
+        "meta.preprocessor.pragma.cpp"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    /****************************************************************
+      JAVA
+    ***************************************************************/
+    {
+      "name": "Imports Java Red",
+      "scope": ["keyword.other.import.java"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    /****************************************************************
+      RUST
+    ****************************************************************/
+    {
+      "name": "Keyword Other Rust White",
+      "scope": ["keyword.other.rust", "keyword.other.fn.rust"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Meta Attribute Rust White",
+      "scope": ["meta.attribute.rust"],
+      "settings": {
+        "foreground": "#BAB493"
       }
     }
   ]
